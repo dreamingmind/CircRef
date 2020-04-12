@@ -1,0 +1,6 @@
+{
+	"autoload":
+	{
+		"classmap": ["crawler.class.php"]
+	}
+}

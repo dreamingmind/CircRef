@@ -20,11 +20,16 @@ class ComposerStaticInit0f0421653518774af8ecc4c297cb8370
         ),
     );
 
+    public static $classMap = array (
+        'crawler' => __DIR__ . '/..' . '/phpclasses/search-crawler/crawler.class.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit0f0421653518774af8ecc4c297cb8370::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit0f0421653518774af8ecc4c297cb8370::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0f0421653518774af8ecc4c297cb8370::$classMap;
 
         }, null, ClassLoader::class);
     }

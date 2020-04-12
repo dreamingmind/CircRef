@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'crawler' => $vendorDir . '/phpclasses/search-crawler/crawler.class.php',
 );
