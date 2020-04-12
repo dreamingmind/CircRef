@@ -12,7 +12,7 @@
 
 include '../vendor/phpclasses/search-crawler/crawler.class.php';
 
-$crawler = new crawler("http://dev.ampfg4.com/pages/dnd");
+$crawler = new crawler("https://stackoverflow.com/legal/privacy-policy");
 
 $html = $crawler->html;
 

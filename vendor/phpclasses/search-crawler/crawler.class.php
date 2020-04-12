@@ -233,7 +233,6 @@ class crawler
         curl_setopt($this->curl, CURLOPT_HTTPGET, true);
         $this->html = curl_exec($this->curl);
 
-
         $end = $this->getmicrotime();
 
         $this->data['time'] = substr($end - $start, 0, 6);
