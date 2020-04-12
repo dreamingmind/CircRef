@@ -13,13 +13,13 @@ $crawler->getcontent();
 
 $data = $crawler->data;
 
-echo "Crawling " . $crawler->url "<br/>";
+echo "Crawling " . $crawler->url . "<br/>";
 
 echo "Page title : " . $data['title'] . "<br/> NO.  of words " .
 
     $data['wordcount'] .
     " <br/> No. Of unique words " . $data['uniquewords'] .
     "<br/>Download speed " .
-    $data['time']);
+    $data['time'];
 
 ?>

@@ -202,7 +202,7 @@ class crawler
         $this->data['words'] = str_word_count($this->clean, 1);
 
 
-        $this->data['uniquewords'] = count($words);
+        $this->data['uniquewords'] = count($this->data['words']);
 
         return $this->data;
 
