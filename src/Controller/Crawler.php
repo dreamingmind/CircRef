@@ -3,7 +3,8 @@
 
 namespace App\Controller;
 
-include '/Library/WebServer/Documents/CircRef/vendor/phpclasses/search-crawler/crawler.class.php';
+//include '/Library/WebServer/Documents/CircRef/vendor/phpclasses/search-crawler/crawler.class.php';
+include 'crawler.class.php';
 
 
 class Crawler extends \crawler
