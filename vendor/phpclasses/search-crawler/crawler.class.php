@@ -31,6 +31,9 @@ class crawler
 
     public $clean; //Page content with no html
 
+    /**
+     * @var DOMDocument
+     */
     protected $dom;
     protected $curl;
 
